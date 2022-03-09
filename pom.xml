@@ -13,7 +13,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.build.number></project.build.number>
+		<project.build.number/>
 		<project.fullVersion>${project.version}</project.fullVersion>
 
 		<powermock.version>2.0.7</powermock.version>
@@ -122,7 +122,7 @@
 					<encoding>ISO-8859-1</encoding>
 					<doctitle>ProtocolLib JavaDocs</doctitle>
 					<windowtitle>ProtocolLib JavaDocs</windowtitle>
-					<bottom>Copyright &#169; {inceptionYear}&#x2013;{currentYear}
+					<bottom>Copyright © {inceptionYear}–{currentYear}
 						Comphenix and dmulloy2. Licensed under the GNU GPL v2.</bottom>
 					<additionalOptions>
 						<additionalOption>-Xdoclint:none</additionalOption>
@@ -281,7 +281,7 @@
 		<dependency>
 			<groupId>io.netty</groupId>
 			<artifactId>netty-all</artifactId>
-			<version>4.0.23.Final</version>
+			<version>4.1.44.Final</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
